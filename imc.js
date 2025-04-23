@@ -1,7 +1,7 @@
  const readline = require("readline-sync")
 
 let peso=parseInt(readline.question("qual seu peso?"));
-let altura=parseInt(readline.question("Qual a sua altura?"));
+let altura=parseFloat(readline.question("Qual a sua altura?"));
 let imc=peso/(altura*altura)
 
 if(imc<18){
